@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>HP Landing Page</title>
+</head>
+<body>
+	<nav>
+			<a href="#"><img src="images/logo1.png" class="logo"></a>
+			
+			<span class="menubtn" onclick="openNav()">&#9776;</span>
+
+		<div class="navLinks">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">What's New</a></li>
+				<li><a href="#">Media</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="sideNav" id="sidenav">
+		<a href="#" class="closeBtn" onclick="closeNav()">&#10006;</a>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">What's New</a>
+		<a href="#">Media</a>
+	</div>
+
+		<div class="row">
+			<div class="column1">
+				<h1>Harry Potter: The Series</h1>
+				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+				<button>Learn More</button>
+
+			</div>
+
+			<div class="column2">
+				<img src="images/three.png" class="banner" width="350px">
+			</div>			
+		</div>
+
+		<footer class="footer">
+			</div>
+			<div class="outer-footer">
+				Copyright &copy; All Rights Reserved | Harry Potter
+			</div>
+
+		</footer>
+
+							<!--JAVASCRIPT HERE!-->
+
+	<script type="text/javascript">
+		function openNav(){
+			document.getElementById("sidenav").style.width="50%";
+		}
+		function closeNav(){
+			document.getElementById("sidenav").style.width="0%";
+		}	
+	</script>
+
+</body>
+</html>
